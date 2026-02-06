@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.52.7] - 2026-02-06
+
 ### Fixed
 
 - Fixed `continue()` to resume queued steering/follow-up messages when context currently ends in an assistant message, and preserved one-at-a-time steering ordering during assistant-tail resumes ([#1312](https://github.com/badlogic/pi-mono/pull/1312) by [@ferologics](https://github.com/ferologics))
